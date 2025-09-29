@@ -12,3 +12,4 @@ class Solution(object):
         for i in range (3,n+1):
             ls.append(ls[i-1]+ls[i-2])
         return ls[n-1]
+
